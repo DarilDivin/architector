@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'MaPolicePersonnalisée';
+    src: url('/src/assets/fonts/Alexana.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

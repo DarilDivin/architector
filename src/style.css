@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 214 37% 98%;
+    --foreground: 214 80% 5%;
+    --muted: 334 10% 89%;
+    --muted-foreground: 334 15% 36%;
+    --popover: 214 37% 98%;
+    --popover-foreground: 214 80% 5%;
+    --card: 214 37% 98%;
+    --card-foreground: 214 80% 5%;
+    --border: 214 10% 89%;
+    --input: 214 10% 89%;
+    --primary: 214 63% 26%;
+    --primary-foreground: 214 63% 86%;
+    --secondary: 334 63% 26%;
+    --secondary-foreground: 334 63% 86%;
+    --accent: 94 63% 26%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 1 80% 21%;
+    --destructive-foreground: 1 80% 81%;
+    --ring: 214 63% 26%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 214 39% 4%;
+    --foreground: 214 27% 99%;
+    --muted: 334 10% 11%;
+    --muted-foreground: 334 15% 64%;
+    --popover: 214 39% 4%;
+    --popover-foreground: 214 27% 99%;
+    --card: 214 39% 4%;
+    --card-foreground: 214 27% 99%;
+    --border: 214 10% 10%;
+    --input: 214 10% 10%;
+    --primary: 214 63% 26%;
+    --primary-foreground: 214 63% 86%;
+    --secondary: 334 63% 26%;
+    --secondary-foreground: 334 63% 86%;
+    --accent: 94 63% 26%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 1 80% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 214 63% 26%;
+  }
+}
+
+
+/*:root {*/
+/*  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;*/
+/*  line-height: 1.5;*/
+/*  font-weight: 400;*/
+
+/*  color-scheme: light dark;*/
+/*  color: rgba(255, 255, 255, 0.87);*/
+/*  background-color: #242424;*/
+
+/*  font-synthesis: none;*/
+/*  text-rendering: optimizeLegibility;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*a {*/
+/*  font-weight: 500;*/
+/*  color: #646cff;*/
+/*  text-decoration: inherit;*/
+/*}*/
+/*a:hover {*/
+/*  color: #535bf2;*/
+/*}*/
+
+/*body {*/
+/*  margin: 0;*/
+/*  display: flex;*/
+/*  place-items: center;*/
+/*  min-width: 320px;*/
+/*  min-height: 100vh;*/
+/*}*/
+
+/*h1 {*/
+/*  font-size: 3.2em;*/
+/*  line-height: 1.1;*/
+/*}*/
+
+/*#app {*/
+/*  max-width: 1280px;*/
+/*  margin: 0 auto;*/
+/*  padding: 2rem;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.logo {*/
+/*  height: 6em;*/
+/*  padding: 1.5em;*/
+/*  will-change: filter;*/
+/*  transition: filter 300ms;*/
+/*}*/
+/*.logo:hover {*/
+/*  filter: drop-shadow(0 0 2em #646cffaa);*/
+/*}*/
+/*.logo.vanilla:hover {*/
+/*  filter: drop-shadow(0 0 2em #3178c6aa);*/
+/*}*/
+
+/*.card {*/
+/*  padding: 2em;*/
+/*}*/
+
+/*.read-the-docs {*/
+/*  color: #888;*/
+/*}*/
+
+/*button {*/
+/*  border-radius: 8px;*/
+/*  border: 1px solid transparent;*/
+/*  padding: 0.6em 1.2em;*/
+/*  font-size: 1em;*/
+/*  font-weight: 500;*/
+/*  font-family: inherit;*/
+/*  background-color: #1a1a1a;*/
+/*  cursor: pointer;*/
+/*  transition: border-color 0.25s;*/
+/*}*/
+/*button:hover {*/
+/*  border-color: #646cff;*/
+/*}*/
+/*button:focus,*/
+/*button:focus-visible {*/
+/*  outline: 4px auto -webkit-focus-ring-color;*/
+/*}*/
+
+/*@media (prefers-color-scheme: light) {*/
+/*  :root {*/
+/*    color: #213547;*/
+/*    background-color: #ffffff;*/
+/*  }*/
+/*  a:hover {*/
+/*    color: #747bff;*/
+/*  }*/
+/*  button {*/
+/*    background-color: #f9f9f9;*/
+/*  }*/
+/*}*/
